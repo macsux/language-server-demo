@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.128
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LanguageServer.VsCode", "LanguageServer.VsCode\LanguageServer.VsCode.csproj", "{E3E1B6AA-38E8-4762-91D5-52AAEA38AF96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLanguageServer", "DemoLanguageServer\DemoLanguageServer.csproj", "{AB737C31-DA7C-4473-8E01-2DE68C6D001B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageServer.VisualStudio", "LanguageServer.VisualStudio\LanguageServer.VisualStudio.csproj", "{CB51E59E-347D-4048-A05B-89AF2B06E4FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{CE445436-42B4-49CD-9291-A9FCB8285880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonRpc.Generators", "csharp-language-server-protocol\src\JsonRpc.Generators\JsonRpc.Generators.csproj", "{6E81AD2F-F44E-45C5-8A9A-AAAAA83DB5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonRpc", "csharp-language-server-protocol\src\JsonRpc\JsonRpc.csproj", "{6A7E1F54-2266-46EF-9B99-94D0C9819E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "csharp-language-server-protocol\src\Shared\Shared.csproj", "{476EC6BC-27C7-41B6-BE40-2B81BA22D9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protocol", "csharp-language-server-protocol\src\Protocol\Protocol.csproj", "{E7A34778-8F8A-4CD4-9203-992BC5CB776A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "csharp-language-server-protocol\src\Client\Client.csproj", "{229BCA83-AA32-452D-867B-DD8C55A68739}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "omnisharp", "omnisharp", "{F2A1E347-2636-4DE0-95E6-938724587E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "csharp-language-server-protocol\src\Server\Server.csproj", "{EE1633B0-2C2B-407E-B773-B06B96CBA446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3E1B6AA-38E8-4762-91D5-52AAEA38AF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E1B6AA-38E8-4762-91D5-52AAEA38AF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E1B6AA-38E8-4762-91D5-52AAEA38AF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E1B6AA-38E8-4762-91D5-52AAEA38AF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB737C31-DA7C-4473-8E01-2DE68C6D001B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB737C31-DA7C-4473-8E01-2DE68C6D001B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB737C31-DA7C-4473-8E01-2DE68C6D001B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB737C31-DA7C-4473-8E01-2DE68C6D001B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB51E59E-347D-4048-A05B-89AF2B06E4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB51E59E-347D-4048-A05B-89AF2B06E4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB51E59E-347D-4048-A05B-89AF2B06E4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB51E59E-347D-4048-A05B-89AF2B06E4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE445436-42B4-49CD-9291-A9FCB8285880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE445436-42B4-49CD-9291-A9FCB8285880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE445436-42B4-49CD-9291-A9FCB8285880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE445436-42B4-49CD-9291-A9FCB8285880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E81AD2F-F44E-45C5-8A9A-AAAAA83DB5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E81AD2F-F44E-45C5-8A9A-AAAAA83DB5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E81AD2F-F44E-45C5-8A9A-AAAAA83DB5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E81AD2F-F44E-45C5-8A9A-AAAAA83DB5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7E1F54-2266-46EF-9B99-94D0C9819E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7E1F54-2266-46EF-9B99-94D0C9819E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7E1F54-2266-46EF-9B99-94D0C9819E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7E1F54-2266-46EF-9B99-94D0C9819E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{476EC6BC-27C7-41B6-BE40-2B81BA22D9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476EC6BC-27C7-41B6-BE40-2B81BA22D9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476EC6BC-27C7-41B6-BE40-2B81BA22D9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476EC6BC-27C7-41B6-BE40-2B81BA22D9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A34778-8F8A-4CD4-9203-992BC5CB776A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A34778-8F8A-4CD4-9203-992BC5CB776A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A34778-8F8A-4CD4-9203-992BC5CB776A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A34778-8F8A-4CD4-9203-992BC5CB776A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229BCA83-AA32-452D-867B-DD8C55A68739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229BCA83-AA32-452D-867B-DD8C55A68739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229BCA83-AA32-452D-867B-DD8C55A68739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229BCA83-AA32-452D-867B-DD8C55A68739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1633B0-2C2B-407E-B773-B06B96CBA446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1633B0-2C2B-407E-B773-B06B96CBA446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1633B0-2C2B-407E-B773-B06B96CBA446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1633B0-2C2B-407E-B773-B06B96CBA446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1F42B05-B4F0-4E52-838A-9123172A5900}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{229BCA83-AA32-452D-867B-DD8C55A68739} = {F2A1E347-2636-4DE0-95E6-938724587E82}
+		{6A7E1F54-2266-46EF-9B99-94D0C9819E6C} = {F2A1E347-2636-4DE0-95E6-938724587E82}
+		{6E81AD2F-F44E-45C5-8A9A-AAAAA83DB5EE} = {F2A1E347-2636-4DE0-95E6-938724587E82}
+		{E7A34778-8F8A-4CD4-9203-992BC5CB776A} = {F2A1E347-2636-4DE0-95E6-938724587E82}
+		{476EC6BC-27C7-41B6-BE40-2B81BA22D9E9} = {F2A1E347-2636-4DE0-95E6-938724587E82}
+		{EE1633B0-2C2B-407E-B773-B06B96CBA446} = {F2A1E347-2636-4DE0-95E6-938724587E82}
+	EndGlobalSection
+EndGlobal
